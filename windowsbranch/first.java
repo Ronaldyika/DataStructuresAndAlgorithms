@@ -40,6 +40,18 @@ class Members{
         System.out.println("the size of your array is: " + size);
         System.out.println("the size of your array is: " + limit);
 
+        if (limit > size){
+
+            System.out.println("the size of the array is small to contain it: ");
+
+        }else{
+            
+            System.out.println("enter array: ");
+
+            
+
+        }
+
 
 
         int [] array =  {1,4,7,7,8,0};
