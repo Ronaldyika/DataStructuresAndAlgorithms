@@ -18,16 +18,34 @@ public class first{
 }
 
 class Members{
+    public static int size;
     public static boolean swapped;
     public static int i;
     public static int temp;
 
 
     static void calculate(){
+        Scanner size1 = new Scanner(System.in);
+        System.out.print("enter the size of array: ");
+        String size2 = size1.nextLine();
+        Scanner limit_1 = new Scanner(System.in);
+        System.out.print("enter the limit: ");
+        
+        String lim = limit_1.nextLine();
+
+        int limit = Integer.parseInt(lim);
+
+
+        size = Integer.parseInt(size2);
+        System.out.println("the size of your array is: " + size);
+        System.out.println("the size of your array is: " + limit);
+
+
+
         int [] array =  {1,4,7,7,8,0};
         do{
             swapped = false;
-            
+
             for(i=0; i < array.length-1;i++){
                 if(array[i] > array[i + 1]){
                     temp = array[i];
