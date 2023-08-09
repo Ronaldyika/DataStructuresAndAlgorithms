@@ -1,0 +1,9 @@
+C:\Users\Ronald-Yika\Desktop\CivilSalt_Intern\Phonebook\Phonebook\bin\Debug\Phonebook.exe.config
+C:\Users\Ronald-Yika\Desktop\CivilSalt_Intern\Phonebook\Phonebook\bin\Debug\Phonebook.exe
+C:\Users\Ronald-Yika\Desktop\CivilSalt_Intern\Phonebook\Phonebook\bin\Debug\Phonebook.pdb
+C:\Users\Ronald-Yika\Desktop\CivilSalt_Intern\Phonebook\Phonebook\obj\Debug\Phonebook.csprojResolveAssemblyReference.cache
+C:\Users\Ronald-Yika\Desktop\CivilSalt_Intern\Phonebook\Phonebook\obj\Debug\Phonebook.Phonebook.resources
+C:\Users\Ronald-Yika\Desktop\CivilSalt_Intern\Phonebook\Phonebook\obj\Debug\Phonebook.Properties.Resources.resources
+C:\Users\Ronald-Yika\Desktop\CivilSalt_Intern\Phonebook\Phonebook\obj\Debug\Phonebook.csproj.GenerateResource.Cache
+C:\Users\Ronald-Yika\Desktop\CivilSalt_Intern\Phonebook\Phonebook\obj\Debug\Phonebook.exe
+C:\Users\Ronald-Yika\Desktop\CivilSalt_Intern\Phonebook\Phonebook\obj\Debug\Phonebook.pdb
