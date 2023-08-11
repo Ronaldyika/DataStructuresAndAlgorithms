@@ -12,6 +12,7 @@ public class array{
             System.out.println("num2 is higher");
         }else{
             System.out.println("the numbers are same ");
+            System.out.println("you can end here");
         }
 
         Scanner obj1 = new Scanner(System.in);
