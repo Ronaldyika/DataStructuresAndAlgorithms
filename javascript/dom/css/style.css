@@ -1,0 +1,8 @@
+.login-card{
+    width: 20rem;
+    height: 15rem;
+    background-color: rgb(92, 158, 215);
+    opacity: 0.8;
+    padding: 3px;
+    margin: auto;
+}
