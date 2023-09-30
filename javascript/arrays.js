@@ -1,3 +1,4 @@
+/*
 let a = [2,4,5,6,7,8,3];
 
 var sum = 0;
@@ -20,4 +21,5 @@ console.log(a);
 a.pop()
 console.log(a);
 
+*/
 

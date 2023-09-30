@@ -33,7 +33,22 @@ const n2 ={
 
 n1.next = n2;
 console.log(n1);
-================================*/
+
+
+
+
+const n1 = new Node(200);
+const n2 = new Node(340,n1);
+const n3 = new Node(900,n2);
+const n4 = new Node(40,n3);
+console.log(n3);
+const ll = new LinkedList();
+ll.insertFirst(200);
+ll.insertFirst(470);
+
+console.log(ll);
+console.log(0.5 + 0.1 === 0.6)
+console.log(0.2 + 0.1 === 0.3)
 
 
 class Node{
@@ -53,6 +68,7 @@ class LinkedList{
         this.head = new Node(data,this.next)
     }
 
+
     //insert last node
 
     //insert at index
@@ -64,17 +80,41 @@ class LinkedList{
     //print list data
 }
 
-/*
-const n1 = new Node(200);
-const n2 = new Node(340,n1);
-const n3 = new Node(900,n2);
-const n4 = new Node(40,n3);
-console.log(n3);*/
 
-const ll = new LinkedList();
-ll.insertFirst(200);
-ll.insertFirst(470);
 
-console.log(ll);
-console.log(0.5 + 0.1 === 0.6)
-console.log(0.2 + 0.1 === 0.3)
+================================*/
+
+
+// simple understanding of the linkedlist data type
+
+const box1 = {
+    data : 5 ,
+    next : null
+}
+
+const box2 = {
+    data: 6,
+    next:null
+}
+
+const box3 = {
+    data:9,
+    next : null
+}
+
+const box4 = {
+    data:56,
+    next:null
+}
+
+
+box1.next = box2;
+box2.next = box3;
+box3.next = box4;
+
+let currentBox = box1;
+
+while (currentBox.next !=null){
+    console.log(currentBox);
+    currentBox = currentBox.next;
+}
