@@ -1,3 +1,4 @@
+/*===================================
 class Node{
 
     constructor(data,next){
@@ -21,3 +22,14 @@ nodeb.next = nodec;
 nodec.next = noded;
 
 console.log(nodea.next);
+================================*/
+const n1 = {
+    data:200
+}
+
+const n2 ={
+    data:340
+}
+
+n1.next = n2;
+console.log(n1);
