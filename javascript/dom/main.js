@@ -61,3 +61,13 @@ const bamenda_welcome = document.querySelector("#js_added h4");
 addEventListener('click', function(e){
     console.log(e.target)
 })
+
+
+console.log(document.forms);
+const adduser = document.forms['add-book'];
+
+adduser.addEventListener('submit',function(e){
+    const vallue = adduser.querySelector('input[type  = "text"]').vallue
+
+console.log(vallue);
+})
