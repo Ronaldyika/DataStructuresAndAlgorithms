@@ -84,3 +84,14 @@ items.addEventListener('change',function(e){
         items.style.display = "blog"
     }
 })
+
+/*
+dom styles and checkboxes
+
+function changebackground(){
+    const backg = document.getElementById('login-card');
+    backg.style.backgroundColor = 'blue'
+}
+
+*/
+
