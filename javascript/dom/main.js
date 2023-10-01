@@ -52,10 +52,6 @@ addEventListener('mouseover',function(e){
 })
 
 
-*/
-
-
-
 const bamenda_welcome = document.querySelector("#js_added h4");
 
 addEventListener('click', function(e){
@@ -70,4 +66,21 @@ adduser.addEventListener('submit',function(e){
     const vallue = adduser.querySelector('input[type  = "text"]').vallue
 
 console.log(vallue);
+})
+
+
+
+
+*/
+
+const items = document.querySelector('.form-book');
+
+items.addEventListener('change',function(e){
+
+    const l1 = document.querySelector('.checkbox1');
+    if(l1.checked){
+        items.style.display = 'none'
+    }else{
+        items.style.display = "blog"
+    }
 })
