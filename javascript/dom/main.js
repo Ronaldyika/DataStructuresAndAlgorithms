@@ -1,3 +1,4 @@
+/*
 function alertfunction(){
 
     alert("input fields required!!");
@@ -27,3 +28,36 @@ for( let i = 0; i < 3; i ++){
         console.log(i,item)
     });
 }
+*/
+
+//dom queryselector and queryselectorall
+/*const topics = document.querySelectorAll('#titles')
+topics.forEach(function(item) {
+    console.log(item.textContent)
+});
+
+
+//dom traversal
+
+const booklist = document.querySelectorAll('#book-list');
+console.log('the parent node is', booklist.parentNode);
+
+//dom events
+
+const eventlistener = document.querySelector('#heading');
+
+addEventListener('mouseover',function(e){
+    console.log(e.target);
+    console.log(e);
+})
+
+
+*/
+
+
+
+const bamenda_welcome = document.querySelector("#js_added h4");
+
+addEventListener('click', function(e){
+    console.log(e.target)
+})
